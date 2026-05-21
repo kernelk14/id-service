@@ -36,7 +36,7 @@ $field_list = [
         <div class="container">
             <h3>Start creating an ID with the fields below.</h3>
             <div class="container">
-                 <a href="<?= base_url('users') ?>" class="btn btn-outline-dark">Go Back</a>
+                 <a href="<?= base_url('requests') ?>" class="btn btn-outline-dark">Go Back</a>
             </div>
             <br>
         </div>

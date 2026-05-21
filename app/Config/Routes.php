@@ -7,8 +7,8 @@ use App\Controllers\IDService;
  */
 
 $routes->get('/', 'IDService::index', ['filter' => 'session']);
-$routes->get('users', 'IDService::index', ['filter' => 'session']);
-$routes->get('user/create', 'IDService::create', ['filter' => 'session']);
+$routes->get('requests', 'IDService::index', ['filter' => 'session']);
+$routes->get('requests/create', 'IDService::create', ['filter' => 'session']);
 
 service('auth')->routes($routes);
 $routes->post('user/store', 'IDService::store');
